@@ -8,6 +8,7 @@ https://pre-commit.com/#install
 pip install pre-commit 
 ```
 ### 2. Create pre-commit configuration at the root of repository
+``.pre-commit-config.yaml``
 ```yaml
 repos:
   - repo: https://github.com/gitleaks/gitleaks
