@@ -8,6 +8,8 @@ Branch protection rules are settings that you can apply to specific branches in 
 
 ## 2. Key Features of Branch Protection Rules
 
+These are the most important rule you have to consider to add.
+
 - **Require pull request reviews before merging:** This ensures that changes are reviewed by at least one other person before they are merged into the protected branch.
 - **Require status checks to pass before merging:** This feature ensures that all required checks (like CI/CD tests) must pass before a pull request can be merged.
 - **Restrict who can push to matching branches:** This allows you to specify which users or teams can push directly to the branch, preventing unauthorized changes.
@@ -16,6 +18,8 @@ Branch protection rules are settings that you can apply to specific branches in 
 ## 3. How to Set Up Branch Protection Rules
 
 To set up branch protection rules in Git, follow these steps:
+
+<img width="1168" height="644" alt="Image" src="https://github.com/user-attachments/assets/1eeea952-7d54-49d7-825d-ddd9135a38c2" />
 
 1. Navigate to your repository on GitHub (or your Git hosting service).
 2. Go to the repository settings.
